@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eisenhowermatrixampl-dev-00044-authRole",
+      "UnauthRoleArn": "arn:aws:iam::118541797950:role/amplify-eisenhowermatrixampl-dev-00044-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::118541797950:role/amplify-eisenhowermatrixampl-dev-00044-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-eisenhowermatrixampl-dev-00044-deployment",
+      "UnauthRoleName": "amplify-eisenhowermatrixampl-dev-00044-unauthRole",
+      "StackName": "amplify-eisenhowermatrixampl-dev-00044",
+      "StackId": "arn:aws:cloudformation:eu-central-1:118541797950:stack/amplify-eisenhowermatrixampl-dev-00044/fd5d37c0-6ce8-11ec-88d6-0a5149db456c",
+      "AmplifyAppId": "d35lowhj8jq9y5"
+    },
+    "categories": {
+      "auth": {
+        "eisenhowermatrixampl5925eef3": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "eisenhowermatrixampl",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "autheisenhowermatrixampl5925eef3",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

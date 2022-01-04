@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "eisenhowermatrixampl",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/callen/personal/dev/eisenhower-matrix-amplify/amplify/backend/api/eisenhowermatrixampl/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-01-03T23:02:29.542Z",
+      "keyDescription": "public"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "autheisenhowermatrixampl5925eef3"
+      }
+    ]
+  }
+}
