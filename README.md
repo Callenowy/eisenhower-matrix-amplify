@@ -2,6 +2,9 @@ Serverless implementation of my productivity app.
 
 TBA some description about app.
 
+Note! This app use Babel instead of SWC due lack of supported plugins. In this case `@emotion/babel-plugin`.
+https://github.com/vercel/next.js/discussions/30174
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with
