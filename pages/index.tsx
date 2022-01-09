@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { css } from '@emotion/react';
 
+import EisenhowerGrid from '../components/eisenhowerGrid';
+
 const Home: NextPage = () => {
   return (
     <>
@@ -18,6 +20,7 @@ const Home: NextPage = () => {
       >
         Sunday, January 9th, 2022
       </h2>
+      <EisenhowerGrid></EisenhowerGrid>
     </>
   );
 };
