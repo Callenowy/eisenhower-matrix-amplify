@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { ThemeProvider, Global, css } from '@emotion/react';
 import styled from '@emotion/styled';
 
+import SiteName from '../components/siteName';
+
 import 'sanitize.css';
 import 'sanitize.css/forms.css';
 import 'sanitize.css/typography.css';
@@ -33,7 +35,19 @@ const Footer = styled.footer`
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={commonTheme}>
-      <Header>Eisenhower Matrix</Header>
+      <Header>
+        <SiteName>
+          Eisenhower{' '}
+          <span
+            css={css`
+              font-weight: 200;
+              display: inline-block;
+            `}
+          >
+            Matrix
+          </span>
+        </SiteName>
+      </Header>
 
       <Main>
         <Component {...pageProps} />
