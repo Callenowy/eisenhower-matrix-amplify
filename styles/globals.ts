@@ -3,14 +3,20 @@ import { css } from '@emotion/react';
 export const globals = css`
   :root {
     --page-boundary: 1.5rem;
+
+    --font-weight-bold: 600;
+    --font-weight-medium: 400;
+    --font-weight-light: 300;
+
+    --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   html,
   body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: var(--font-family);
   }
 
   a {
@@ -18,8 +24,12 @@ export const globals = css`
     text-decoration: none;
   }
 
-  * {
-    box-sizing: border-box;
+  a:focus {
+    outline: 5px auto red;
+  }
+
+  #__next {
+    isolation: isolate;
   }
 
   .assistive-text {
